@@ -1,0 +1,21 @@
+# Local secrets and machine state
+.env
+.env.*
+*.pem
+*.p12
+*.jks
+*.keystore
+credentials*
+
+# Browser profiles contain cookies, login state, history, caches, and huge model files.
+browser_profile/
+browser_profile_debug/
+**/browser_profile*/
+**/chrome_*profile*/
+
+# Dependency/cache folders
+node_modules/
+__pycache__/
+.pytest_cache/
+.DS_Store
+Thumbs.db
